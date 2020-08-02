@@ -1,0 +1,10 @@
+.container {
+    padding: 10px 15px;
+    background: antiquewhite;
+}
+
+.block {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: teal;
+}
