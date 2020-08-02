@@ -23,4 +23,11 @@ for(let key in userData) {
 }
 
 document.body.append(div);
-console.log(document.body);
+
+let allTags = {};
+
+allTags.div = document.querySelectorAll('div').length;
+allTags.p = document.querySelectorAll('p').length;
+allTags.classes = [div.className, p.className];
+
+console.log(allTags);
